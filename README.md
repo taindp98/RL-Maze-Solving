@@ -1,0 +1,3 @@
+# Escape from a maze using reinforcement learning
+
+The environment for this problem is a maze with walls and a single exit. An agent (the learner and decision maker) is placed somewhere in the maze. The agents goal is to reach the exit as quickly as possible. To get there the agent moves through the maze in a succession of steps. For every step the agent must decide which action to take (move left/right/up/down). For this purpose the agent is trained; it learns a policy (Q) which tells what is the best next move to make. With every step the agent incurs a penalty or (when finally reaching the exit) a reward. These penalties and rewards are the input when training the policy.
